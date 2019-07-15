@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Znaczenie stosowania poprawnego nazewnictwa w programowaniu"
+title:  "Clean Code 101: Lepsze nazwy, lepszy kod"
 date:   2019-07-05 18:52:08 +0100
-categories: programowanie
+categories: CC101
 ---
 ## Wstęp
 Nie ma nic gorszego niż głowienie się nad źle napisanym kodem, gdzie nazwy zmiennych i funkcji są nietrafne, skrótowe, bądź wyglądają jak losowe ciągi znaków. Ciężko jest przecenić ten aspekt naszej pracy a mimo to tak niewielu developerów poświęca należytą uwagę poprawnemu nazewnictwu. Każdy programista, który traktuje swoją pracę poważnie, powinien poznać podstawowe zasady pisania czystego i zrozumiałego kodu. Wbrew pozorom, nie potrzeba dużych nakładów czasu i praktyki aby znacząco podnieść jakość naszej pracy. W tym wpisie postaram się przybliżyć fundamentalne reguły dotyczące porawnego nazewnictwa w programowaniu. Główną inspiracją dla tego posta jest książka *Czysty Kod* autostwa Roberta Martina a poniższe akapity po krótce przedstawiają najważniejsze punkty wyciągniete z jej lektury.
@@ -58,5 +58,3 @@ function getPosts() { ... }
 function getComments() { ... }
 function getTags() { ... }
 ```
-
->Seria postów pod tytułem *XXX* to esencja moich notatek i wniosków wyciągniętych z lektury wspaniałej książki *Czysty Kod. Podręcznik dobrego programisty* autorstwa Roberta Martina. Kliknij [tutaj](http://www.sampleurl.com) aby zobaczyć wszystkie wpisy z tej kolekcji.
