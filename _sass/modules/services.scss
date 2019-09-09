@@ -1,0 +1,53 @@
+@import './../vars.scss';
+
+.services-section {
+	padding: 4rem 0 6rem;
+
+	background-image: url('https://cdn.stocksnap.io/img-thumbs/960w/SNX6M0KJ2G.jpg');
+	background-color: rgba(255, 255, 255, 0.97);
+	background-blend-mode: overlay;
+	background-size: cover;
+
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+	.section__title {
+		margin-bottom: 4rem;
+		text-align: center;
+	}
+
+	.left-col {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		font-family: 'Rubik', sans-serif;
+
+		.plettac-feature {
+			text-align: center;
+
+			img {
+				opacity: 0.85;
+				height: 48px;
+			}
+
+			p {
+				margin-bottom: 0.25rem;
+			}
+
+			a {
+				padding-top: 0.25rem;
+				text-decoration: underline;
+				color: $accent-light;
+				font-weight: bold;
+			}
+		}
+	}
+
+	.right-col {
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}

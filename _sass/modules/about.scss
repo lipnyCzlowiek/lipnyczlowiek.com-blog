@@ -1,0 +1,49 @@
+.about-section {
+	padding: 3rem 0 6rem;
+
+	.section__title {
+		margin-bottom: 4rem;
+	}
+
+	.left-col {
+		img {
+			width: 100%;
+			height: auto;
+			border-radius: 3px;
+		}
+	}
+
+	.right-col {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+
+		h1 {
+			font-family: 'Roboto', sans-serif;
+
+			font-size: 1.5em;
+			text-transform: uppercase;
+			margin: 0;
+
+			span {
+				opacity: 0.75;
+				font-weight: 300;
+			}
+		}
+
+		.text-box__content {
+			font-family: 'Rubik', sans-serif;
+		}
+
+		.btn {
+			background-color: $accent-light;
+			color: $color-white;
+
+			font-family: 'Rubik', sans-serif;
+
+			float: right;
+		}
+	}
+}
